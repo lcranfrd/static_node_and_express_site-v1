@@ -5,14 +5,19 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 How I Can Help The Web To Better Serve You!
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
-
+    p This Portfolio shows how I can help in making the web suit your needs. These projects show the proficiency of my skills. I import the skills attained as a professional Symphony Musician such as: the ability to work closely with others, tenacity  in problem solving, persuit in the highest level of attained perfection and, the belief that every project is the same as a performance.
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+      each project in projects 
+        .cell 
+          a(href='#')
+            img.thumbnail(src=`${project.image_urls[0]}` alt="Project Screenshot" target='_blank')
+            h5= project.project_name
+
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       

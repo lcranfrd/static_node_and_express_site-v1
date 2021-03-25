@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  section.desk
+  h1= err.message
+  h2= err.status
+
+  a.button-primary-small(href="hello") Go Home
+  div.paper
+    pre.stack-trace= err.stack 
+
+  //- h2= error.status 
+  //- pre= error.stack

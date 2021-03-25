@@ -1,0 +1,49 @@
+{"projects": 
+  [
+    {
+      "id": "0",
+      "project_name": "A Random Quote Generator",
+      "description": "Show a random quotation stored in an object with its associated elements triggered every 15 seconds or by user input.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/lcranfrd/a_random_quote_generator-v1.git",
+      "image_urls": ["static/img/P1_1a_Screen.png", "", "", "", ""]
+    },
+    {
+      "id": "1",
+      "project_name": "Data Pagination and Filtering",
+      "description": "Show searchable predetermined number of generated user profiles with pagination.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/lcranfrd/data-pagination-and-filtering-v1.git",
+      "image_urls": ["static/img/P2_1a_Screen.png", "", "", "", ""]
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "Demonstrate client-side form element checking showing hints and errors previous to server posting.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/lcranfrd/Interactive_Form.git",
+      "image_urls": ["static/img/P3_1a_Screen.png", "", "", "", ""]
+    },
+    {
+      "id": "3",
+      "project_name": "OOP Phrase Hunter Game",
+      "description": "A Phrase Hunter Game (hangman) driven with OOPJS.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/lcranfrd/oop_game-v2.git",
+      "image_urls": ["static/img/P4_1a_Screen.gif", "", "", "", ""]
+    },
+    {
+      "id": "4",
+      "project_name": "Public API Request",
+      "description": "Demonstrate API request with searchable results and associated modal information screen.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/lcranfrd/public_api_request-v1.git",
+      "image_urls": ["static/img/P5_1a_Screen.gif", "P5_2_Screen.gif", "", "", ""]
+    }
+  ]
+}

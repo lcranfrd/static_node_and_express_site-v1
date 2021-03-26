@@ -15,13 +15,16 @@ app.get('/', (req, res) => {
   res.render('index', {projects});
 });
 
-app.get('/about',(req, res) => {
+app.get('/about', (req, res) => {
   projects.forEach((v)=>console.log(v));
   res.render('about', {projects});
 });
 
 app.get('/project/:id', (req, res) => {
-  res.render();
+  const {id} = req.params;
+  const project = projects[id];
+  console.log(project.project_name)
+  res.render('project', {project});
 });
 
 app.use((req, res) => {
@@ -38,6 +41,6 @@ app.use((err, req, res, next) => {
   res.render('error', {err});
 });
 
-app.listen(3000, () => {
+app.listen(7000, () => {
   console.log('New Start On File Save');
 });

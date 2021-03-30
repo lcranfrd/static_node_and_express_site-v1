@@ -2,13 +2,13 @@ extends layout
 
 block content
   section.error
-    h1= err.message
+    h1 #{err.message}: '#{originalUrl}'
     h2= err.status
 
     button.home-nav(type='button')
       a.button-primary-small(href="/") Back to Home
   div.stack-holder
-    div.stack-trace= err.stack 
+    pre.stack-trace= err.stack 
 
   //- h2= error.status 
   //- pre= error.stack

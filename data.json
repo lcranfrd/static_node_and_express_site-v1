@@ -25,7 +25,7 @@
       "github_link": "https://github.com/lcranfrd/data-pagination-and-filtering-v1.git",
       "image_urls":
       [
-        "static/img/P2_1a_Screen.png",
+        "/static/img/P2_1a_Screen.png",
         "/static/img/P2_Lg-1.gif",
         "/static/img/P2_Lg-2.gif",
         "",
@@ -41,7 +41,7 @@
       "github_link": "https://github.com/lcranfrd/Interactive_Form.git",
       "image_urls":
       [
-        "static/img/P3_1a_Screen.png",
+        "/static/img/P3_1a_Screen.png",
         "",
         "",
         "",
@@ -55,7 +55,14 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/oop_game-v2/",
       "github_link": "https://github.com/lcranfrd/oop_game-v2.git",
-      "image_urls": ["static/img/P4_1a_Screen.gif", "", "", "", ""]
+      "image_urls":
+      [
+        "/static/img/P4_1a_Screen.gif",
+         "",
+         "",
+         "",
+         ""
+      ]
     },
     {
       "id": "4",
@@ -66,8 +73,24 @@
       "github_link": "https://github.com/lcranfrd/public_api_request-v1.git",
       "image_urls":
       [
-        "static/img/P5_1a_Screen.gif",
-        "P5_2_Screen.gif",
+        "/static/img/P5_1a_Screen.gif",
+        "/static/img/P5_2_Screen.gif",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "5",
+      "project_name": "Pac Man Game",
+      "description": "A simple PacMan game in JavaScript with a simple XY Ghost chase algorithm.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://lcranfrd.github.io/Pacman/",
+      "github_link": "https://github.com/lcranfrd/Pacman",
+      "image_urls":
+      [
+        "",
+        "",
         "",
         "",
         ""

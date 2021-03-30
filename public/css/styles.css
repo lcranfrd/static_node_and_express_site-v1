@@ -333,6 +333,7 @@ button {
   text-shadow: 1px 1px 0 transparent;
   letter-spacing: 0.1rem;
   color: rgb(255, 255, 255);
+  min-width: 140px;
   width: calc(30% - 40px);
   margin: 0px auto;
   padding: 10px 25px;

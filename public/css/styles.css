@@ -301,15 +301,20 @@ nav a span {
 }
 
 /*
-error sytle
+error style
 */
-.error-thrown {
-  background-color: rgb(217, 243, 245)
+
+.error-404 {
+  background-color: rgb(217, 245, 242)
 }
+
+.error-500 {
+  background-color: rgb(231, 217, 245)
+}
+
 .error {
   margin-top: 20px;
   text-align: center;
-  background-color: rgb(217, 243, 245); 
   border-bottom: 50px solid rgb(126, 196, 233);
 	border-left: 200px solid transparent;
 	border-right: 200px solid transparent;
@@ -324,6 +329,7 @@ error sytle
 .stack-trace {
   text-align: left;
   white-space: pre-line;
+  padding: 5px;
 }
 
 button {

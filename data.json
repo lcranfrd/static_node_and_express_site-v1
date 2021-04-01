@@ -83,7 +83,7 @@
     {
       "id": "5",
       "project_name": "Pac Man Game",
-      "description": "A simple PacMan game in JavaScript with a simple XY Ghost chase algorithm.",
+      "description": "A simple Pac Man game in JavaScript with a simple XY Ghost chase algorithm.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/Pacman/",
       "github_link": "https://github.com/lcranfrd/Pacman",

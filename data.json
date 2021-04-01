@@ -42,8 +42,8 @@
       "image_urls":
       [
         "/static/img/P3_1a_Screen.png",
-        "",
-        "",
+        "/static/img/P3_Lg-1.gif",
+        "/static/img/P3_Lg-2.gif",
         "",
         ""
       ]
@@ -58,7 +58,7 @@
       "image_urls":
       [
         "/static/img/P4_1a_Screen.gif",
-         "",
+         "/static/img/P4_Lg-1.gif",
          "",
          "",
          ""

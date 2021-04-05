@@ -8,13 +8,15 @@ html(lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    link(rel='stylesheet', href='animate/animate.css')
+    <script src="fontawesome/js/all.js" crossorigin="anonymous"></script>
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='/static/img/LBC_ArtsGarden.png', alt='LBC playing the Contra Bass')
+          img.thumbnail(src='/static/img/LBC_ArtsGarden-2.png', alt='LBC playing the Contra Bass')
         .dev-intro-box
           h5 L. Bennett Crantford
           p Career Symphony Musician Performing With Code Technologies
@@ -25,5 +27,7 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
           span L. Bennett Crantford
+          
       block content
+      
   script(src='/static/js/script.js')

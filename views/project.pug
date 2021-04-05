@@ -4,14 +4,14 @@ block content
 
   nav.nav
     a(href='/')
-      span(class='fas fa-arrow-circle-left')
+      span(class='fas fa-2x fa-arrow-circle-left')
       |  Back
 
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
-        h1 #{project.project_name}
-        p #{project.description}
+        h1.animate__animated.animate__lightSpeedInLeft.animate__delay-1s #{project.project_name}
+        p.animate__animated.animate__lightSpeedInRight.animate__delay-1s #{project.description}
 
       .project-tech-links-box.box
         h6 Technologies
@@ -29,5 +29,5 @@ block content
 
     nav.nav
       a(href='/')
-        span(class='fas fa-arrow-circle-left')
+        span(class='fas fa-2x fa-arrow-circle-left')
         |  Back

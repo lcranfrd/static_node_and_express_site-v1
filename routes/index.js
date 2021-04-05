@@ -1,3 +1,9 @@
+/**========================================================================
+ * *                                index.js
+ *   Router methods for the main pages of the site.
+ *   
+ *========================================================================**/
+
 const express = require('express');
 const router = express.Router();
 const {projects} = require('../data.json');

@@ -1,5 +1,9 @@
-// const express = require('express');
-// const router = express.Router();
+/**========================================================================
+ * *                                errors.js
+ *   Middleware handler functions for 404 and 500 error conditions
+ *   This is for Exceeds Expectations
+ * 
+ *========================================================================**/
 
 const error404 = ((req, res) => {
   const err = new Error('Requested Resource Not Found')

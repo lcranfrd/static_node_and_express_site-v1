@@ -1,3 +1,9 @@
+/**========================================================================
+ * *                                projects.js
+ *   Route for individual projects.
+ *   
+ *========================================================================**/
+
 const express = require('express');
 const router = express.Router();
 const {projects} = require('../data.json');

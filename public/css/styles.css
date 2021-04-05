@@ -1,4 +1,6 @@
-
+:root {
+  --newBlue: #d4f4f7;
+}
 /*
   Main styles
 */
@@ -21,18 +23,22 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
+  background: var(--newBlue);
   background: #000;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: var(--newBlue);
 }
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+
+h1 {
+  text-shadow: 3px 2px 1px rgba(244, 230, 235, 0.934)
 }
 
 h5{
@@ -63,7 +69,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: var(--newBlue);
 }
 
 .flex-row-wrap {
@@ -82,7 +88,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: var(--newBlue);
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -159,7 +165,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: var(--newBlue);
   margin: 0 auto 0.5rem;
 }
 
@@ -181,7 +187,7 @@ nav a span {
 
 .header {
   vertical-align: middle;
-  color: #fefefe;
+  color: var(--newBlue);
   height: 40px;
   padding: 0.5rem;
   background: #0a0a0a;
@@ -204,8 +210,8 @@ nav a span {
   background: #0a0a0a;
   margin-top: 3px;
   margin-right: 10px;
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
+  border-top: 2px solid var(--newBlue);
+  border-bottom: 2px solid var(--newBlue);
 }
 
 .header button:after {
@@ -215,7 +221,7 @@ nav a span {
   left: 0;
   width: 20px;
   height: 2px;
-  background: #fefefe;
+  background: var(--newBlue);
 }
 
 
@@ -291,7 +297,7 @@ nav a span {
 .btn-link {
   display: block;
   text-align: center;
-  color: #fefefe;
+  color: var(--newBlue);
   width: 100%;
   max-width: 255px;
   margin: auto 0 5px 0;

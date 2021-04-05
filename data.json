@@ -11,14 +11,12 @@
       [
         "/static/img/P1_1a_Screen.png",
         "/static/img/P1_Lg-1.png",
-        "/static/img/P1_Lg-2.png",
-        "/static/img/P1_Lg-3.png",
-        ""
+        "/static/img/P1_Lg-2.png"
       ]
     },
     {
       "id": "1",
-      "project_name": "Data Pagination and Filtering",
+      "project_name": "Data Pagination and Filtering Demostration",
       "description": "Show searchable predetermined number of generated user profiles with pagination.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/data-pagination-and-filtering-v1/",
@@ -27,15 +25,13 @@
       [
         "/static/img/P2_1a_Screen.png",
         "/static/img/P2_Lg-1.gif",
-        "/static/img/P2_Lg-2.gif",
-        "",
-        ""
+        "/static/img/P2_Lg-2.gif"
       ]
     },
     {
       "id": "2",
-      "project_name": "Interactive Form",
-      "description": "Demonstrate client-side form element checking showing hints and errors previous to server posting.",
+      "project_name": "An Interactive Form",
+      "description": "Demonstrate client-side form element checking, showing the user hints and errors before allowing the Form to Post to server.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/Interactive_Form/",
       "github_link": "https://github.com/lcranfrd/Interactive_Form.git",
@@ -43,14 +39,12 @@
       [
         "/static/img/P3_1a_Screen.png",
         "/static/img/P3_Lg-1.gif",
-        "/static/img/P3_Lg-2.gif",
-        "",
-        ""
+        "/static/img/P3_Lg-2.gif"
       ]
     },
     {
       "id": "3",
-      "project_name": "OOP Phrase Hunter Game",
+      "project_name": "A OOP Driven Phrase Hunter Game",
       "description": "A Phrase Hunter Game (hangman) driven with OOPJS.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/oop_game-v2/",
@@ -58,42 +52,33 @@
       "image_urls":
       [
         "/static/img/P4_1a_Screen.gif",
-         "/static/img/P4_Lg-1.gif",
-         "",
-         "",
-         ""
+         "/static/img/P4_Lg-1.gif"
       ]
     },
     {
       "id": "4",
-      "project_name": "Public API Request",
-      "description": "Demonstrate API request with searchable results and associated modal information screen.",
+      "project_name": "A Public API Request Demonstration",
+      "description": "Perform an API request with searchable results and associated modal information screen.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/public_api_request-v1/",
       "github_link": "https://github.com/lcranfrd/public_api_request-v1.git",
       "image_urls":
       [
         "/static/img/P5_1_Screen.gif",
-        "/static/img/P5_Lg-1.gif",
-        "",
-        "",
-        ""
+        "/static/img/P5_Lg-1.gif"
       ]
     },
     {
       "id": "5",
       "project_name": "Pac Man Game",
-      "description": "A simple Pac Man game in JavaScript with a simple XY Ghost chase algorithm.",
+      "description": "A simple Pac Man game in JavaScript with an XY Ghost chase algorithm.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://lcranfrd.github.io/Pacman/",
       "github_link": "https://github.com/lcranfrd/Pacman",
       "image_urls":
       [
         "/static/img/P6_1a_Screen.gif",
-        "/static/img/P6_Lg-1.gif",
-        "",
-        "",
-        ""
+        "/static/img/P6_Lg-1.gif"
       ]
     }
   ]

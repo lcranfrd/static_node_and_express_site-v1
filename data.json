@@ -32,7 +32,7 @@
       "id": "2",
       "project_name": "An Interactive Form",
       "description": "Demonstrate client-side form element checking, showing the user hints and errors before allowing the Form to Post to server.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript", "Accessibility"],
       "live_link": "https://lcranfrd.github.io/Interactive_Form/",
       "github_link": "https://github.com/lcranfrd/Interactive_Form.git",
       "image_urls":
@@ -46,7 +46,7 @@
       "id": "3",
       "project_name": "A OOP Driven Phrase Hunter Game",
       "description": "A Phrase Hunter Game (hangman) driven with OOPJS.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
       "live_link": "https://lcranfrd.github.io/oop_game-v2/",
       "github_link": "https://github.com/lcranfrd/oop_game-v2.git",
       "image_urls":
@@ -59,7 +59,7 @@
       "id": "4",
       "project_name": "A Public API Request Demonstration",
       "description": "Perform an API request with searchable results and associated modal information screen.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript", "Fetch and Public APIs"],
       "live_link": "https://lcranfrd.github.io/public_api_request-v1/",
       "github_link": "https://github.com/lcranfrd/public_api_request-v1.git",
       "image_urls":

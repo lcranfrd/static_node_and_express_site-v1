@@ -1,7 +1,11 @@
 /**========================================================================
  * *                                App.js
+ *                    Leonard Bennett Crantford 4/4/2021
+ *                    TreeHouse Full Stack Tech Degree Unit 6
+ *                    Exceeds Expectations Only
+ * 
  *   Setup express with required static and routes middleware.
- *   Define the routes chained for pages ending with the error routes.
+ *   Define the routes chained for pages ending with error routes.
  *
  *========================================================================**/
 
@@ -22,5 +26,5 @@ app.use(error404);
 app.use(internalError);
 
 app.listen(3000, () => {
-  console.log('New Node Server Start :3000');
+  console.log('From app.js: New Node Server Start :3000');
 });
